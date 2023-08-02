@@ -52,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Multi_focus/Test_near" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SESF-Fuse" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -125,7 +125,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1690943901404</updated>
-      <workItem from="1690943902704" duration="9119000" />
+      <workItem from="1690943902704" duration="9967000" />
     </task>
     <servers />
   </component>
