@@ -53,18 +53,18 @@ import pandas as pd
 # df.to_excel(output_file)
 
 
-eval_folder = os.path.join('/home/synsense-1/LIBO/MFIF-PADCDTNP/results/Lytro/', 'CNN-Lytro')
-ori_img_folder = os.path.join('/home/synsense-1/LIBO/MFIF-PADCDTNP/datasets/', 'Lytro')
-
-metric_result = np.zeros((6))
-for img_name in os.listdir(os.path.join(ori_img_folder, "source_1")):
-    ir = image_read_cv2(os.path.join(ori_img_folder, "source_1", img_name), 'GRAY')
-    vi = image_read_cv2(os.path.join(ori_img_folder, "source_2", img_name), 'GRAY')
-    fi = image_read_cv2(os.path.join(eval_folder, img_name.split('.')[0] + ".png"), 'GRAY')
-    metric_result += np.array([Evaluator.EN(fi), Evaluator.MSE(fi, ir, vi),
-                               Evaluator.MI(fi, ir, vi), Evaluator.VIFF(fi, ir, vi)
-                                  , Evaluator.Qabf(fi, ir, vi), Evaluator.SSIM(fi, ir, vi)])
-
-metric_result /= len(os.listdir(eval_folder))
-
-print(metric_result)
+# eval_folder = os.path.join('/home/synsense-1/LIBO/MFIF-PADCDTNP/results/Lytro/', 'CNN-Lytro')
+# ori_img_folder = os.path.join('/home/synsense-1/LIBO/MFIF-PADCDTNP/datasets/', 'Lytro')
+#
+# metric_result = np.zeros((6))
+# for img_name in os.listdir(os.path.join(ori_img_folder, "source_1")):
+#     ir = image_read_cv2(os.path.join(ori_img_folder, "source_1", img_name), 'GRAY')
+#     vi = image_read_cv2(os.path.join(ori_img_folder, "source_2", img_name), 'GRAY')
+#     fi = image_read_cv2(os.path.join(eval_folder, img_name.split('.')[0] + ".png"), 'GRAY')
+#     metric_result += np.array([Evaluator.EN(fi), Evaluator.MSE(fi, ir, vi),
+#                                Evaluator.MI(fi, ir, vi), Evaluator.VIFF(fi, ir, vi)
+#                                   , Evaluator.Qabf(fi, ir, vi), Evaluator.SSIM(fi, ir, vi)])
+#
+# metric_result /= len(os.listdir(eval_folder))
+#
+# print(metric_result)
