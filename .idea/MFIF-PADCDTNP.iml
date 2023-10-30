@@ -2,7 +2,7 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="Python 3.6 (sklearnTutorial)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.6.13 (sftp://wangshaowei@202.117.43.20:22922/data/wangshaowei/anaconda3/envs/pytorch_libo/bin/python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

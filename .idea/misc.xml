@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6 (sklearnTutorial)" project-jdk-type="Python SDK" />
+  <component name="Black">
+    <option name="sdkName" value="Remote Python 3.6.13 (sftp://wangshaowei@202.117.43.20:22922/data/wangshaowei/.virtualenvs/MFIF-PADCDTNP/bin/python)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.6.13 (sftp://wangshaowei@202.117.43.20:22922/data/wangshaowei/anaconda3/envs/pytorch_libo/bin/python)" project-jdk-type="Python SDK" />
 </project>
