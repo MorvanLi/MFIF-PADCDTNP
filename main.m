@@ -1,7 +1,7 @@
 clear all;
 close all;
  
-%%%% Created by Bo Li <morvanli@stu.xjtu.edu.cn> 2023.6.18
+%%%% Created by Bo Li <morvanli@stu.xjtu.edu.cn> 
 
 %% parametes settting 
 t_max = 110;
