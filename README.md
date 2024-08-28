@@ -14,3 +14,16 @@ All comparison methods in the [experiments branch](https://github.com/MorvanLi/M
 ## Implementation details
 
 {For the image fusion task, PADCDTNP systems use a single-layer network architecture that maintains a one-to-one correspondence between its neurons and the pixels of the input image. PADCDTNP systems are based on iterative computation, and time complexity can be formulated as $O(t_{max} \times m \times n)$, where $m \times n$ represents the total number of neurons in the model, determined by the input image size, and $t_{max}$ denotes the maximum number of iterations, which is set to 110. The proposed fusion method is implemented in Matlab 2023a and on an Intel (R) Xeon (R) Gold 6346 CPU running at 3.1 GHz with 80 GB of RAM. All compared DL-based methods are reproduced on one NVIDIA A100 GPU. We used open-source code and fixed all parameters according to recommendations provided in the relevant publications.
+
+## Citation
+If this repo helps you, please consider citing our works:
+```
+@article{li2024multi,
+  title={Multi-focus image fusion with parameter adaptive dual channel dynamic threshold neural P systems},
+  author={Li, Bo and Zhang, Lingling and Liu, Jun and Peng, Hong and Wang, Qianying and Liu, Jiaqi},
+  journal={Neural Networks},
+  pages={106603},
+  year={2024},
+  publisher={Elsevier}
+}
+```
